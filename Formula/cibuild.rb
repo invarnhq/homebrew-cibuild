@@ -6,10 +6,10 @@ class Cibuild < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/invarnhq/cibuild/releases/download/v#{version}/cibuild-macos-arm64.tar.gz"
-      sha256 "b1fac7df10e482f84736ec7b2c090bc60b039d068ed7f29461fde204061fc440"
+      sha256 "f633a00d9b8c0d624bf1c681cf3a4c2488b8f8b019040544f7f994b2224e8716"
     else
       url "https://github.com/invarnhq/cibuild/releases/download/v#{version}/cibuild-macos-x64.tar.gz"
-      sha256 "dc460ddda2c6c11c32cba7bc6b1780fcf1760939dd5c52af9591eeea0977e1da"
+      sha256 "9954bcf7cf65d219ff79f4097a993104d3d141c87bd43921b7f668014b42c18c"
     end
   end
 
