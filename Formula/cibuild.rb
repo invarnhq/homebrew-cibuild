@@ -1,15 +1,15 @@
 class Cibuild < Formula
   desc "CI Build — local pipeline orchestration for Android/iOS"
   homepage "https://github.com/invarnhq/cibuild"
-  version "1.3.4"
+  version "1.3.5"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/invarnhq/cibuild/releases/download/v#{version}/cibuild-macos-arm64.tar.gz"
-      sha256 "28bc2288f99f518bcffbe416785488ea53cc28dd851de08b45c2566b34fb49b6"
+      sha256 "e049e6c8129c77d5f47f6e5fa8b4db42ea1f0518bfa0299df79fd6270d977256"
     else
       url "https://github.com/invarnhq/cibuild/releases/download/v#{version}/cibuild-macos-x64.tar.gz"
-      sha256 "6983b98aeb412e1abe542951106fc13a9984bb0a497a0d961cf9e8773104d551"
+      sha256 "dc6ca02f000f4ab7567b1d32c976e4b6a0da7ca606535c205e9a5e584bbe193e"
     end
   end
 
